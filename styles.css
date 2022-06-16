@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(./images/DICE\ DIsire.png);
+    position: absolute;
+}
+
+
+h1
+{
+    position: relative;
+    left: 34.2rem; 
+    top: 20rem;
+    font-size: 80px;
+    /* color: red; */
+    background: linear-gradient(to right, #6600cc 0%, #660066 100%) ;
+    font-family: 'Kdam Thmor Pro';
+    -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+}
+.dice1
+{
+    display: inline-block;
+    position: absolute;  
+    left: 68rem; 
+    top: 19.4rem;
+
+}
+.dice2
+{
+    display: inline-block;
+    position: absolute;  
+    left: 6rem; 
+    top: 19.4rem;
+    }
